@@ -9,7 +9,20 @@ const styles = {
     playgroundWrapper: 'text-center px-3 py-2 text-2xl',
 }
 
-const techs = ['aaa', 'bbb', 'ccc', 'ddd', 'jjj']
+
+const tech1 = ['React', 'Node', 'Tailwind', 'Stripe']
+const color1 = ['bg-emerald-400','bg-orange-400','bg-indigo-400', 'bg-red-400', 'bg-purple-400']
+
+const tech2 = ['React', 'Node', 'Stripe', 'Axios', 'cheerio' ]
+const color2 = ['bg-indigo-400','bg-purple-400','bg-emerald-400', 'bg-red-400', 'bg-cyan-400']
+
+const tech3 = ['React', 'Node', 'Solidity', 'Stripe', 'Truffle' ]
+const color3 = ['bg-orange-400','bg-indigo-400','bg-red-400', 'bg-purple-400', 'bg-emerald-400']
+
+const tech4 = ['React.js', 'Next.js', 'Solidity', 'Stripe', 'Truffle' ]
+const color4 = ['bg-red-400','bg-orange-400','bg-indigo-400', 'bg-emerald-400', 'bg-purple-400']
+
+
 const Feed = () => {
     return (
         <div className={styles.feedWrapper}>
@@ -55,21 +68,27 @@ const Feed = () => {
             <div className={styles.experienceWrapper}>
                 Experience
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
-                    <Post position={'Developer'} tech={techs} description='Lorem Ipsum Abobaist' />
-                    <Post position={'Developer'} tech={techs} description='Lorem Ipsum Abobaist' />
-                    <Post position={'Developer'} tech={techs} description='Lorem Ipsum Abobaist' />
-                    <Post position={'Developer'} tech={techs} description='Lorem Ipsum Abobaist' />
-                    <Post position={'Developer'} tech={techs} description='Lorem Ipsum Abobaist' />
+                    <Post position={'Fullsatck Developer'} company={'skillcrucial.com'} tech={tech1} description='Lorem Ipsum Abobaist Mangaed  dkjf or os dojkfnls don sod v os o vkrhjgsr islrgn osng srgj ksgn osrjgn sksrhjg  ojfg  joisrjg opkgvno ojhsrvno osjgnk khldgio ihgl;n dilng' color={color1}/>
+                    <Post position={'Fullstack Developer'} company={'PixelKraft LLS'} tech={tech2} description='Lorem Ipsum Abobaist' color={color2}/>
+                    <Post position={'Developer'} company={'myNFT.is '} tech={tech3} description='Lorem Ipsum Abobaist' color={color3}/>
+                    <Post position={'Developer'} tech={tech4} description='Lorem Ipsum Abobaist' color={color4}/>
+        
                 </div>
 
 
             </div>
             <div className={styles.projectsWrapper}>
                 Projects
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
+                    <Post position={'Creator'} company={'Decentralized social platform'} tech={tech1} description='Lorem Ipsum Abobaist Mangaed  dkjf or os dojkfnls don sod v os o vkrhjgsr islrgn osng srgj ksgn osrjgn sksrhjg  ojfg  joisrjg opkgvno ojhsrvno osjgnk khldgio ihgl;n dilng' color={color1}/>
+                    <Post position={'Creater'} company={'Web Scraper'} tech={tech2} description='Lorem Ipsum Abobaist' color={color2}/>
+        
+                </div>
+
             </div>
-            <div className={styles.playgroundWrapper}>
+            {/* <div className={styles.playgroundWrapper}>
                 Playground
-            </div>
+            </div> */}
 
         </div>
     )
