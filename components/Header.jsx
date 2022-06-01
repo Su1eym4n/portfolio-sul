@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import Link from 'next/link'
 const Header = () => {
   return (
