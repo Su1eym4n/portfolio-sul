@@ -7,10 +7,13 @@ const style = {
 }
 export default function Home() {
   return (
-   <div  className='bg-[#1b2937] text-white justify-center items-center font-mono'>
-     <Header/>
-     <Feed/>
-     <Footer/>
-   </div>
+    <div className='bg-[#201F47] text-white justify-center items-center font-mono'>
+        <div className="bg-red-500">
+        Portfolio is Under Development
+        </div>
+        <Header />
+        <Feed />
+        <Footer />
+    </div>
   )
 }

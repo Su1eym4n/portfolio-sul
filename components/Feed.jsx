@@ -3,7 +3,7 @@ import Image from 'next/image'
 import pic from '../public/IMG_6948.JPG'
 import Post from './Post'
 const styles = {
-    feedWrapper: ' lg:mx-20 sm:mx-2',
+    feedWrapper: ' lg:mx-20 sm:mx-2 px-44',
     aboutWrapper: 'text-center px-3 py-2 text-2xl',
     experienceWrapper: 'text-center px-3 py-2 text-2xl',
     projectsWrapper: 'text-center px-3 py-2 text-2xl',
